@@ -1,1 +1,3 @@
 # Reconocimiento_Voz
+
+En las diferentes carpetas se ven diferentes versiones para el sistema de reconocimiento de voz, en la carpeta V1 está la versión que no usa TensorFlow sino que analiza las bandas de energía y cruces por cero para entender fonemas o sílabas pero con poca precisión, en la carpeta V2 está la versión con TensorFlow en donde se pueden grabar audios y generar el modelo con python, sin embargo aún no funciona correctamente la incidencia entre los LEDs, y en la última carpeta está una explicación más detallada de la creación del modelo y probada con los diferentes audios para saber si quedó correctamente el modelo.
